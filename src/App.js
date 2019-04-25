@@ -9,7 +9,7 @@ class App extends Component {
     super(props);
 
     this.state = {
-      name: 'Apple',
+      name: 'IpMerah',
       color: 'merah',
       img: 'apel.jpg'
     };
@@ -31,7 +31,7 @@ class App extends Component {
       );
     }else if(name == 'Profile'){
       //display menu profile
-      return <Pr/>;
+      return <Pr nama="nama saya"/>;
     }else{
       //display default
       return (

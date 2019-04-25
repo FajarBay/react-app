@@ -6,22 +6,22 @@ import * as serviceWorker from './serviceWorker';
 
 const items = [
     {
-        name : 'Apple',
+        name : 'IpMerah',
         color : 'merah',
         img   : 'apel.jpg',
     },
     {
-        name : 'Pineapple',
+        name : 'IpKuning',
         color : 'kuning',
         img   : 'nanas.jpg',
     },
     {
-        name : 'Avocado',
+        name : 'IpHijau',
         color : 'hijau',
         img   : 'alpukat.jpg',
     },
     {
-        name : 'Berry',
+        name : 'IpBiru',
         color : 'biru',
         img   : 'berry.jpg',
     },
