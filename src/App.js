@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import Pr from './Profile.js';
 import Calc from './Calculator.js';
+import toast from 'toasted-notes';
+import 'toasted-notes/src/styles.css';
 
 class App extends Component {
   constructor(props) {
@@ -37,7 +39,7 @@ class App extends Component {
       return (
         <div>
           ini adalah <span className={"selected "+this.state.color}>{this.state.name}</span><br/><br/>
-                  
+
           <img src={this.state.img} width="200"></img>
         </div>
       );
